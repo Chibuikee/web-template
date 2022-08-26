@@ -1,62 +1,97 @@
 import Image from "next/image";
 import Link from "next/link";
 import Payment from "../../assets/images/payment.png";
-import Paperplane from "../../assets/images/paper-plane.svg";
+import { IoPaperPlane } from "react-icons/io5";
+import { useForm } from "react-hook-form";
+
 function Footer() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  function onSubmit(data) {
+    console.log(data);
+  }
+  const links = [
+    {
+      title: "DORSIN",
+      child: [
+        { link: "#", title: "Home" },
+        { link: "#", title: "About us" },
+        { link: "#", title: "Careers" },
+        { link: "#", title: "Contact us" },
+      ],
+    },
+    {
+      title: "Information",
+      child: [
+        { link: "#", title: "Terms & Condition" },
+        { link: "#", title: "About us" },
+        { link: "#", title: "Jobs" },
+        { link: "#", title: "Bookmarks" },
+      ],
+    },
+    {
+      title: "Support",
+      child: [
+        { link: "#", title: "FAQ" },
+        { link: "#", title: "Contact" },
+        { link: "#", title: "Disscusion" },
+      ],
+    },
+  ];
+
   return (
     <>
-      <section className=" ">
-        <div className=" flex">
-          <div>
-            <h2>DORSIN</h2>
-            <ul>
-              <li>Home</li>
-              <li>About us</li>
-              <li>Careers</li>
-              <li>Contact us</li>
-            </ul>
-          </div>
-          <div>
-            <h2>Information</h2>
-            <ul>
-              <li>Terms & Condition</li>
-              <li>About us</li>
-              <li>Jobs</li>
-              <li>Bookmarks</li>
-            </ul>
-          </div>
-          <div>
-            <h2>Support</h2>
-            <ul>
-              <li>FAQ</li>
-              <li>Contact</li>
-              <li>Disscusion</li>
-              <li></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Subscribe</h4>
-            <p>
+      <section className="bg-[#212529] box-border">
+        <div className="px-4 mx-auto max-w-[960px] lg:max-w-[1280px] py-12 lg:flex">
+          {links.map((item, key) => (
+            <div key={key} className="basis-1/4 mt-6 px-3 ">
+              <h2 className="text-white text-[1rem] mb-2">{item.title}</h2>
+              <ul>
+                {item.child.map((item) => (
+                  <li className="pt-2 text-[#98A0AA] text-sm" key={key}>
+                    {item.title}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+
+          <div className="basis-1/4 px-3">
+            <h4 className="text-white mb-2">Subscribe</h4>
+            <p className="text-[#98A0AA] text-sm">
               In an ideal world this text wouldn't exist, a client would
               acknowledge the importance of having web copy before the design
               starts.
             </p>
-            <form className="subscribe">
-              <input placeholder="Email" className="form-control" required />
-              <Link href="#">
-                <a className="submit">
-                  <img src={Paperplane} alt="hi" />
-                  <i className="pe-7s-paper-plane"></i>
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className="my-4 relative">
+                <input
+                  placeholder="Email"
+                  className="py-1.5 pl-5 w-full pr-12 bg-[#2e313a]"
+                  {...register("Email", { required: true })}
+                />
+
+                <a className="absolute right-4 top-2 ">
+                  <IoPaperPlane size={20} color="#acacac" />
                 </a>
-              </Link>
+
+                {errors.Email && (
+                  <p className="text-red-500 text-xs italic">
+                    Please input your Email
+                  </p>
+                )}
+              </div>
             </form>
           </div>
         </div>
-        <div className="bg-[#2e313a] text-white">
-          <div className="flex px-1.5 justify-between mx-auto max-w-[960px] box-border font-sans">
+        <div className="bg-[#2e313a]">
+          <div className="flex px-7 justify-between items-center font-sans py-4 text-white mx-auto max-w-[960px] lg:max-w-[1280px] ">
             <div className="">
               <p className="copy-rights text-muted">
-                2022 © Dorsin - Themesbrand
+                2022 © Chibs - Themesbrand
               </p>
             </div>
             <div className="float-end pull-none">

@@ -117,9 +117,11 @@ const Contact = () => {
                   ></textarea>
                   {/* {errors.Message && <p>Please input your message</p>} */}
                 </div>
-                <button className="bg-[#fb3e3e] place-end text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                  Send Message
-                </button>
+                <div className="flex justify-end">
+                  <button className="bg-[#fb3e3e] text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Send Message
+                  </button>
+                </div>
               </form>
             </div>
           </div>
