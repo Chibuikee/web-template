@@ -45,11 +45,13 @@ function Footer() {
   return (
     <>
       <section className="bg-[#212529] box-border">
-        <div className="px-4 mx-auto max-w-[960px] lg:max-w-[1280px] py-12 lg:flex">
+        <div className="px-4 mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px] py-12 lg:flex">
           {links.map((item, key) => (
             <div key={key} className="basis-1/4 mt-6 px-3 ">
-              <h2 className="text-white text-[1rem] mb-2">{item.title}</h2>
-              <ul>
+              <h2 className="text-white font-medium text-[1.126rem] mb-2">
+                {item.title}
+              </h2>
+              <ul className="mt-6">
                 {item.child.map((item) => (
                   <li className="pt-2 text-[#98A0AA] text-sm" key={key}>
                     {item.title}
@@ -62,7 +64,7 @@ function Footer() {
           <div className="basis-1/4 px-3">
             <h4 className="text-white mb-2">Subscribe</h4>
             <p className="text-[#98A0AA] text-sm">
-              In an ideal world this text wouldn't exist, a client would
+              In an ideal world this text wouldnt exist, a client would
               acknowledge the importance of having web copy before the design
               starts.
             </p>

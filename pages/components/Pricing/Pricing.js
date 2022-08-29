@@ -43,8 +43,11 @@ function Pricing() {
   return (
     <>
       <div>
-        <h1>OUR PRICING</h1>
-        <p>
+        <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+          OUR PRICING
+        </h1>
+        <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
+        <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
           Call to action pricing table is really crucial to your for your
           business website. Make your bids stand-out with amazing options.
         </p>

@@ -15,38 +15,39 @@ const Contact = () => {
   }
   return (
     <>
-      <section>
-        <div className="mt-4 px-4 mx-auto max-w-[960px] lg:max-w-[1280px]">
+      <section className="py-20">
+        <div className="mt-4 px-4 mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <div>
-            <h2>GET IN TOUCH</h2>
-            <p>
+            <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+              GET IN TOUCH
+            </h1>
+            <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
+            <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
               We thrive when coming up with innovative ideas but also understand
-              that a smart concept should be supported with measurable results."
+              that a smart concept should be supported with measurable results.
             </p>
           </div>
           <div className="lg:flex justify-between">
             <div className="mt-4 pt-4 basis-1/3">
               <p className="mt-4">
-                <span className="h5">Office Address 1:</span>
+                <span className="text-[#212529]">Office Address 1:</span>
                 <br />
-                <span className="text-muted d-block mt-2">
+                <span className=" text-[#95a0ab] mt-2">
                   4461 Cedar Street Moro, AR 72368
                 </span>
               </p>
               <p className="mt-4">
-                <span className="h5">Office Address 2:</span>
+                <span className="text-[#212529]">Office Address 2:</span>
                 <br />
-                <span className="text-muted d-block mt-2">
+                <span className="text-[#95a0ab] mt-2">
                   2467 Swick Hill Street <br />
                   New Orleans, LA 70171
                 </span>
               </p>
               <p className="mt-4">
-                <span className="h5">Working Hours:</span>
+                <span className="text-[#212529]">Working Hours:</span>
                 <br />
-                <span className="text-muted d-block mt-2">
-                  9:00AM To 6:00PM
-                </span>
+                <span className="text-[#95a0ab] mt-2">9:00AM To 6:00PM</span>
               </p>
             </div>
 

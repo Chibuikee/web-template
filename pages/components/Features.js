@@ -21,7 +21,7 @@ function Features() {
         <button>Learn More</button>
       </div>
       <div>Features</div>
-      <img src={OnlineWorld} alt="Phone" />
+      <image src={OnlineWorld} width="100" height="100" alt="Phone" />
     </>
   );
 }

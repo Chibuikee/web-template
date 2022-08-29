@@ -29,15 +29,19 @@ const clients = [
 function Testimonials(props) {
   return (
     <>
-      <section className="section" id="testi">
-        <h1>WHAT THEY'VE SAID</h1>
-        <p>
-          The Big Oxmox advised her not to do so, because there were thousands
-          of bad Commas, wild Question Marks and devious Semikoli.
-        </p>
-
-        <div className="mt-5 flex">
-          <TestimonialsBuilder clients={clients} />
+      <section className="py-[80px]">
+        <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+          <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+            WHAT THEY`VE SAID
+          </h1>
+          <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
+          <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
+            The Big Oxmox advised her not to do so, because there were thousands
+            of bad Commas, wild Question Marks and devious Semikoli.
+          </p>
+          <div className="mt-10 gap-5 lg:flex">
+            <TestimonialsBuilder clients={clients} />
+          </div>
         </div>
       </section>
     </>

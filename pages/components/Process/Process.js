@@ -31,31 +31,29 @@ const processes = [
 function Process(props) {
   return (
     <>
-      <section className="section bg-light">
-        <h1>WORK PROCESS</h1>
-        <p>
-          In an ideal world this website wouldn't exist, a client would
-          acknowledge the importance of having web copy before the design
-          starts.
-        </p>
-
-        <div>
-          <div lg={6} className="text-center process-left-icon-1">
-            <i className="pe-7s-angle-right"></i>
-          </div>
-          <div lg={6} className="text-center process-left-icon-2">
-            <i className="pe-7s-angle-right"></i>
-          </div>
-        </div>
-        <div className="mt-5">
-          <ProcessBuilder processes={processes} />
-          <div className="text-center mx-auto">
-            <Link href="#">
-              <a className="btn btn-primary waves-light waves-effect mt-5">
-                <button>Get Started </button>{" "}
-                <i className="mdi mdi-arrow-right"></i>
-              </a>
-            </Link>
+      <section className="py-[80px] bg-[#f8fbff]">
+        <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+          <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+            WORK PROCESS
+          </h1>
+          <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
+          <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
+            In an ideal world this website wouldnt exist, a client would
+            acknowledge the importance of having web copy before the design
+            starts.
+          </p>
+          <div className="mt-5">
+            <ProcessBuilder processes={processes} />
+            <div className="text-center mx-auto">
+              <Link href="#">
+                <a className="mt-5">
+                  <button className="bg-[#fb3e3e] text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Get Started
+                  </button>
+                  <i className="mdi mdi-arrow-right"></i>
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

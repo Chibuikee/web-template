@@ -28,14 +28,20 @@ const blogs = [
 function Blog() {
   return (
     <>
-      <section className="section bg-light pt-5" id="blog">
-        <h1>BLOG</h1>
-        <p>
-          Separated they live in Bookmarksgrove right at the coast of the
-          Semantics, a large language ocean class at a euismod mus luctus quam.
-        </p>
-        <div className="mt-4">
-          <BlogBuilder blogs={blogs} />
+      <section className="bg-[#f8fbff] py-20">
+        <div className="sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px] px-3 mx-auto">
+          <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+            BLOG
+          </h1>
+          <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
+          <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
+            Separated they live in Bookmarksgrove right at the coast of the
+            Semantics, a large language ocean class at a euismod mus luctus
+            quam.
+          </p>
+          <div className="mt-4">
+            <BlogBuilder blogs={blogs} />
+          </div>
         </div>
       </section>
     </>

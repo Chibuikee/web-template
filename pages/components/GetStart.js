@@ -9,7 +9,7 @@ function GetStart() {
     <>
       <section className="section section-lg bg-get-start">
         <div className="bg-overlay">
-          <h1 className="get-started-title text-white">Let's Get Started</h1>
+          <h1 className="get-started-title text-white">Lets Get Started</h1>
           <div className="section-title-border mt-4 bg-white"></div>
           <p className="section-subtitle font-secondary text-white text-center pt-4">
             Far far away, behind the word mountains, far from the countries
