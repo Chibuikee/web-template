@@ -1,16 +1,16 @@
 import React from "react";
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-import Services from "../Services/Services";
-import WebsiteDesc from "../WebsiteDesc";
-import Pricing from "../Pricing/Pricing";
-import Team from "../Team/Team";
-import Process from "../Process/Process";
-import Blog from "../Blog/Blog";
-import Testimonials from "../Testimonials/Testimonials";
-import GetStart from "../GetStart";
-import Contact from "../Contact";
-import Social from "../Social";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import Services from "../../components/Services/Services";
+import WebsiteDesc from "../../components/WebsiteDesc";
+import Pricing from "../../components/Pricing/Pricing";
+import Team from "../../components/Team/Team";
+import Process from "../../components/Process/Process";
+import Blog from "../../components/Blog/Blog";
+import Testimonials from "../../components/Testimonials/Testimonials";
+import GetStart from "../../components/GetStart";
+import Contact from "../../components/Contact";
+import Social from "../../components/Social";
 
 function Layout(props) {
   return (

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Payment from "../../assets/images/payment.png";
 import { IoPaperPlane } from "react-icons/io5";
 import { useForm } from "react-hook-form";
 
@@ -97,7 +96,12 @@ function Footer() {
               </p>
             </div>
             <div className="float-end pull-none">
-              <Image alt="payment" src={Payment} width={150} height={36} />
+              <Image
+                alt="payment"
+                src="/assets/images/payment.png"
+                width={150}
+                height={36}
+              />
             </div>
           </div>
         </div>

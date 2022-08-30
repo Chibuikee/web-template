@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import BbPatternLight from "../../assets/images/bg-pattern-light.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 function GetStart() {
@@ -23,7 +22,12 @@ function GetStart() {
           </Link>
         </div>
         <div className="bg-pattern-effect">
-          <Image alt="pattern" src={BbPatternLight} width={750} height={406} />
+          <Image
+            alt="pattern"
+            src="/assets/images/bg-pattern-light.png"
+            width={750}
+            height={406}
+          />
         </div>
       </section>
     </>

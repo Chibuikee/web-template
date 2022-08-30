@@ -1,29 +1,23 @@
 import React from "react";
 import TeamBuilder from "./TeamBuilder";
-
-import img1 from "../../../assets/images/team/img-1.jpeg";
-import img2 from "../../../assets/images/team/img-2.jpg";
-import img3 from "../../../assets/images/team/img-3.jpg";
-import img4 from "../../../assets/images/team/img-4.jpg";
-
 const teams = [
   {
-    image: img1,
+    image: "/assets/images/team/img-1.jpeg",
     title: "Chibuike Ewenike",
     desc: "CEO",
   },
   {
-    image: img2,
+    image: "/assets/images/team/img-2.jpg",
     title: "Elaine Stclair",
     desc: "DESIGNER",
   },
   {
-    image: img3,
+    image: "/assets/images/team/img-3.jpg",
     title: "Wanda Arthur",
     desc: "DEVELOPER",
   },
   {
-    image: img4,
+    image: "/assets/images/team/img-4.jpg",
     title: "Joshua Stemple",
     desc: "MANAGER",
   },

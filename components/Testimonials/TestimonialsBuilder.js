@@ -15,6 +15,8 @@ const TestimonialsBox = ({ clients }) => {
                 src={client.image}
                 alt="client"
                 className="rounded-full"
+                width={58}
+                height={58}
                 // layout="fill" // required
                 // objectFit="cover"
               />
