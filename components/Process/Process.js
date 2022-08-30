@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { GiArcheryTarget } from "react-icons/gi";
 import { BsPen } from "react-icons/bs";
-import { ImProfile } from "react-icons/Im";
+// import { ImProfile } from "react-icons/Im";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 import ProcessBuilder from "./ProcessBuilder";
@@ -15,7 +15,7 @@ const processes = [
     nicon: IoIosArrowDroprightCircle,
   },
   {
-    icon: ImProfile,
+    icon: BsPen,
     title: "Get free quotes",
     desc: "Little Blind Text didn't listen.",
     nicon: IoIosArrowDroprightCircle,
