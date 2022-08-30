@@ -21,6 +21,7 @@ function GetStart() {
             </a>
           </Link>
         </div>
+
         <div className="bg-pattern-effect">
           <Image
             alt="pattern"
@@ -29,6 +30,7 @@ function GetStart() {
             height={406}
           />
         </div>
+        <div className="bg-pattern-effect"></div>
       </section>
     </>
   );
