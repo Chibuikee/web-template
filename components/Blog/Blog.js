@@ -1,8 +1,8 @@
 import React from "react";
 import BlogBuilder from "./BlogBuilder";
-import img1 from "../../../assets/images/blog/img-1.jpg";
-import img2 from "../../../assets/images/blog/img-2.jpg";
-import img3 from "../../../assets/images/blog/img-3.jpg";
+import img1 from "../../assets/images/blog/img-1.jpg";
+import img2 from "../../assets/images/blog/img-2.jpg";
+import img3 from "../../assets/images/blog/img-3.jpg";
 
 const blogs = [
   {

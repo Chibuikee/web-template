@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import BbPatternLight from "../../assets/images/bg-pattern-light.png";
+import BbPatternLight from "../assets/images/bg-pattern-light.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 function GetStart() {

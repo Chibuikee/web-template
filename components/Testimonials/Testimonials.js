@@ -1,9 +1,9 @@
 import React from "react";
 import TestimonialsBuilder from "./TestimonialsBuilder";
 //import images
-import img2 from "../../../assets/images/testimonials/user-2.jpg";
-import img1 from "../../../assets/images/testimonials/user-1.jpg";
-import img3 from "../../../assets/images/testimonials/user-3.jpg";
+import img2 from "../../assets/images/testimonials/user-2.jpg";
+import img1 from "../../assets/images/testimonials/user-1.jpg";
+import img3 from "../../assets/images/testimonials/user-3.jpg";
 
 const clients = [
   {

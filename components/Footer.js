@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Payment from "../../assets/images/payment.png";
+import Payment from "../assets/images/payment.png";
 import { IoPaperPlane } from "react-icons/io5";
 import { useForm } from "react-hook-form";
 
