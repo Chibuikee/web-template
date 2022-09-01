@@ -1,7 +1,6 @@
 import React from "react";
 import { BsBullseye } from "react-icons/bs";
 function ProcessBuilder({ processes }) {
-  const len = processes ? processes.length : 0;
   return (
     <>
       <div className="flex mx-auto gap-10 md:max-w-[900px] ">

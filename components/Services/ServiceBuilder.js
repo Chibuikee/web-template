@@ -1,12 +1,13 @@
 import React from "react";
+import { IoAirplaneOutline } from "react-icons/io";
 function ServiceBuilder({ services }) {
   return (
     <>
       {(services || []).map((service, key) => (
-        <div key={key} className="services-box text-center flex hover-effect">
-          <i className={service.icon + " text-primary"}></i>
-          <h4 className="pt-3">{service.title}</h4>
-          <p className="pt-3 text-muted">{service.desc}</p>
+        <div key={key} className="text-center p-[14px] basis-1/3">
+          {/* <service.icon size="40" color="blue" /> */}
+          <h4 className="pt-4 mb-2 text-lg font-medium">{service.title}</h4>
+          <p className="pt-4 mb-4 text-sm text-[#95a0ab]">{service.desc}</p>
         </div>
       ))}
     </>

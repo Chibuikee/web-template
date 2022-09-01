@@ -11,15 +11,21 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 import GetStart from "../../components/GetStart";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
+import Features from "../../components/Features";
+import Hero from "../../components/Hero";
 
 function Layout(props) {
   return (
     <>
       {/* import Header */}
       <Navbar />
-
+      {/* import Her0 */}
+      <Hero />
       {/* import Services */}
       <Services />
+
+      {/* import Fetures */}
+      <Features />
 
       {/* import WebsiteDesc */}
       <WebsiteDesc />

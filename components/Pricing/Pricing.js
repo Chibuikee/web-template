@@ -42,19 +42,21 @@ function Pricing() {
   ];
   return (
     <>
-      <div>
-        <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
-          OUR PRICING
-        </h1>
-        <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
-        <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
-          Call to action pricing table is really crucial to your for your
-          business website. Make your bids stand-out with amazing options.
-        </p>
-        <div>
-          <PricingBuilder pricings={pricings} />
+      <section className="py-[80px]">
+        <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+          <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+            OUR PRICING
+          </h1>
+          <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
+          <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
+            Call to action pricing table is really crucial to your for your
+            business website. Make your bids stand-out with amazing options.
+          </p>
+          <div>
+            <PricingBuilder pricings={pricings} />
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
