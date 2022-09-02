@@ -6,31 +6,35 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 function GetStart() {
   return (
     <>
-      <section className="section section-lg bg-get-start">
-        <div className="bg-overlay">
-          <h1 className="get-started-title text-white">Lets Get Started</h1>
+      <section className="relative py-[6.27rem] bg-[url('/assets/images/img-2.jpg')] bg-cover bg-no-repeat bg-center">
+        <div className="absolute h-full w-full right-0 left-0 top-0 bottom-0 opacity-90 bg-gradient-to-r from-[rgb(81_45_168)] to-[rgb(113_30_114)] "></div>
+        <div className="relative text-center">
+          <h1 className="font-medium tracking-wide text-[1.75rem] text-white">
+            Lets Get Started
+          </h1>
+          <div className="w-12 h-[0.125rem] mt-6 mx-auto bg-[#fb3e3e]"></div>
           <div className="section-title-border mt-4 bg-white"></div>
-          <p className="section-subtitle font-secondary text-white text-center pt-4">
+          <p className="pt-6 text-[#FFFFFF] max-w-[37.5rem] mx-auto text-base mb-4 text-center">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
           </p>
           <Link href="#">
-            <a className="btn btn-white waves-effect mt-3 mb-4">
-              Get Started
-              <IoIosArrowRoundForward className="mdi mdi-arrow-right" />
+            <a>
+              <button className="bg-white font-normal rounded-md border-solid border-[1px] text-[#212529] py-[0.625rem] px-5 mt-6 mb-12">
+                Get Started
+                <IoIosArrowRoundForward className="inline" />
+              </button>
             </a>
           </Link>
         </div>
 
-        <div className="bg-pattern-effect">
+        <div className="h-6 w-full absolute right-0 bottom-0 left-0">
           <Image
             alt="pattern"
             src="/assets/images/bg-pattern-light.png"
-            width={750}
-            height={406}
+            layout="fill"
           />
         </div>
-        <div className="bg-pattern-effect"></div>
       </section>
     </>
   );

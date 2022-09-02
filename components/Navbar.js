@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 function NavBar() {
   return (
     <>
-      <section className="py-2.5 bg-[#212529]">
+      <section className="sticky top-0 py-2.5 bg-[#212529]">
         <div className="flex justify-around px-1.5 mx-auto max-w-[960px] box-border font-sans text-white">
           <h1 className="basis-1/6 text-xl tracking-widest font-bold self-center">
             DORSIN
