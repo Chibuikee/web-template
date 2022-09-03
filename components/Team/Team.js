@@ -26,17 +26,19 @@ const teams = [
 function Team() {
   return (
     <>
-      <section className="section pt-4" id="team">
-        <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
-          BEHIND THE PEOPLE
-        </h1>
-        <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
-        <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
-          It is a long established fact that create category leading brand
-          experiences a reader will be distracted by the readable content of a
-          page when looking at its layout.
-        </p>
-        <TeamBuilder teams={teams} />
+      <section id="Team" className="py-[80px] bg-[#f8fbff]">
+        <div className="mx-auto px-10 sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+          <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+            BEHIND THE PEOPLE
+          </h1>
+          <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
+          <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
+            It is a long established fact that create category leading brand
+            experiences a reader will be distracted by the readable content of a
+            page when looking at its layout.
+          </p>
+          <TeamBuilder teams={teams} />
+        </div>
       </section>
     </>
   );

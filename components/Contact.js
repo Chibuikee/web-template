@@ -15,7 +15,7 @@ const Contact = () => {
   }
   return (
     <>
-      <section className="py-20">
+      <section id="Contact" className="py-20">
         <div className="mt-4 px-4 mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <div>
             <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
@@ -51,7 +51,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="basis-2/3 px-3">
+            <div className="basis-2/3 px-3 pt-5">
               <pre> {JSON.stringify(userInfo, undefined, 2)} </pre>
               <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
                 <div className="md:flex space-y-4 md:space-y-0 md:gap-4 w-full">

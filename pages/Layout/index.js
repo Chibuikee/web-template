@@ -12,7 +12,7 @@ import GetStart from "../../components/GetStart";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 import Features from "../../components/Features";
-import Hero from "../../components/Hero";
+import Home from "../../components/Home";
 
 function Layout(props) {
   return (
@@ -20,7 +20,7 @@ function Layout(props) {
       {/* import Header */}
       <Navbar />
       {/* import Her0 */}
-      <Hero />
+      <Home />
       {/* import Services */}
       <Services />
 

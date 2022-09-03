@@ -26,7 +26,7 @@ function Hero() {
     <>
       <section
         className="relative pt-[80px] h-[90vh] pb-[80px] lg:pt-[13.75rem] lg:pb-[9.375rem] "
-        id="home"
+        id="Home"
         style={{
           backgroundImage: "URL(/assets/images/bg-home.jpg)",
           backgroundRepeat: "no-repeat",

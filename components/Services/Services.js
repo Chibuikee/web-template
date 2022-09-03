@@ -1,15 +1,15 @@
 import React from "react";
 import ServiceBuilder from "./ServiceBuilder";
 import { BsDisplay } from "react-icons/bs";
-import { GrDiamond } from "react-icons/gr";
+import { IoDiamondOutline } from "react-icons/io5";
 import { FaPiggyBank } from "react-icons/fa";
 import { GiMaterialsScience } from "react-icons/gi";
-import { IoNewspaperOutline } from "react-icons/io";
-import { IoAirplaneOutline } from "react-icons/io";
+import { IoNewspaperOutline } from "react-icons/io5";
+import { IoAirplaneOutline } from "react-icons/io5";
 function Services() {
   const services1 = [
     {
-      icon: GrDiamond,
+      icon: IoDiamondOutline,
       title: "Digital Design",
       desc: "Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.",
     },
@@ -44,7 +44,7 @@ function Services() {
 
   return (
     <>
-      <section className="py-[80px]">
+      <section id="Services" className="py-[80px]">
         <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             OUR SERVICES

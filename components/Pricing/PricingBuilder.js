@@ -3,7 +3,7 @@ import Link from "next/link";
 const PricingBox = ({ pricings }) => {
   return (
     <>
-      <div className="flex gap-6">
+      <div className="md:flex gap-6">
         {(pricings || []).map((pricing, key) => (
           <div
             className="text-center py-[50px] px-[40px] bg-white basis-1/3  border border-solid border-[#ecf0f5] rounded-lg shadow-lg"

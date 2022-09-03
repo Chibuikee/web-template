@@ -3,7 +3,7 @@ import { BsBullseye } from "react-icons/bs";
 function ProcessBuilder({ processes }) {
   return (
     <>
-      <div className="flex mx-auto gap-10 md:max-w-[900px] ">
+      <div className="md:flex mx-auto gap-10 md:max-w-[900px] ">
         {(processes || []).map((process, index, key) => (
           <div key={key} className="flex basis-1/3 relative">
             <div className="flex flex-col w-full p-[12px] items-center">
@@ -18,7 +18,7 @@ function ProcessBuilder({ processes }) {
             {index == 2 ? (
               <></>
             ) : (
-              <div className="flex nowrap items-center absolute top-[20px] right-[-100px] ">
+              <div className="hidden md:flex nowrap items-center absolute top-[20px] right-[-100px] ">
                 <span>.................</span>
                 <process.nicon size="3em" color="#fb3e3e" />
                 <span>.................</span>

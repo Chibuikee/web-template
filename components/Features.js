@@ -2,7 +2,7 @@ import Image from "next/image";
 function Features() {
   return (
     <>
-      <section className="bg-[#f8fbff] py-[80px]">
+      <section id="Features" className="bg-[#f8fbff] py-[80px]">
         <div className="lg:flex mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <div className="text-[#95a0ab] lg:w-[41.66666667%]">
             <h1 className="mb-[25px] leading-9 text-2xl text-black">

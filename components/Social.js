@@ -37,7 +37,7 @@ function Social() {
   ];
   return (
     <>
-      <section className="contact-social bg-[#f8fbff] pt-20 px-5 py-5">
+      <section className="contact-social bg-[#f8fbff] pt-5 px-5 py-5">
         <div className="md:flex px-3 mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <ul className="list-inline basis-2/4 social mt-4 flex space-x-4 ">
             {links.map((item, key) => (

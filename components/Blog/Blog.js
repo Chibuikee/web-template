@@ -25,7 +25,7 @@ const blogs = [
 function Blog() {
   return (
     <>
-      <section className="bg-[#f8fbff] py-20">
+      <section id="Blog" className="bg-[#f8fbff] py-20">
         <div className="sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px] px-3 mx-auto">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             BLOG

@@ -3,21 +3,25 @@ import Image from "next/image";
 function TeamBox({ teams }) {
   return (
     <>
-      <div className="flex ">
+      <div className="md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 ">
         {(teams || []).map((team, key) => (
-          <div className="basis-1/4" key={key}>
-            <div className="team-member">
+          <div className="" key={key}>
+            <div className="mx-auto relative md:w-[21rem] md:h-[21rem] lg:h-[13.5rem] lg:w-[13.5rem] rounded">
               <Image
                 alt="team member image"
                 src={team.image}
-                className="img-fluid rounded"
-                width={216}
-                height={216}
+                width="216"
+                height="216"
+                layout="responsive"
               />
             </div>
 
-            <h4 className="text-bold">{team.title}</h4>
-            <p className="text-uppercase team-designation">{team.desc}</p>
+            <h4 className="text-base pt-5 text-center mb-[7px]">
+              {team.title}
+            </h4>
+            <p className="text-[#a8aeb4] text-center text-[13px] ">
+              {team.desc}
+            </p>
           </div>
         ))}
       </div>

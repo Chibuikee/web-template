@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { GiArcheryTarget } from "react-icons/gi";
 import { BsPen } from "react-icons/bs";
-// import { ImProfile } from "react-icons/Im";
+import { ImProfile } from "react-icons/Im";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 import ProcessBuilder from "./ProcessBuilder";
@@ -15,7 +15,7 @@ const processes = [
     nicon: IoIosArrowDroprightCircle,
   },
   {
-    icon: BsPen,
+    icon: ImProfile,
     title: "Get free quotes",
     desc: "Little Blind Text didn't listen.",
     nicon: IoIosArrowDroprightCircle,
@@ -31,7 +31,7 @@ const processes = [
 function Process(props) {
   return (
     <>
-      <section className="py-[80px] bg-[#f8fbff]">
+      <section id="Process" className="py-[80px] bg-[#f8fbff]">
         <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             WORK PROCESS

@@ -8,7 +8,10 @@ const BlogBuilder = ({ blogs }) => {
       <section>
         <div className="lg:flex gap-5">
           {(blogs || []).map((blog, key) => (
-            <div key={key} className="basis-1/3 mt-4 hover-effect">
+            <div
+              key={key}
+              className="basis-1/3 mt-4 relative hover:top-[-8px] "
+            >
               <Image
                 src={blog.image}
                 width={296}

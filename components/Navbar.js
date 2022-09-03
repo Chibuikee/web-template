@@ -1,9 +1,10 @@
 import React from "react";
+import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 function NavBar() {
   return (
     <>
-      <section className="sticky top-0 py-2.5 bg-[#212529]">
+      <section className="sticky z-50 top-0 py-2.5 bg-[#212529]">
         <div className="flex justify-around px-1.5 mx-auto max-w-[960px] box-border font-sans text-white">
           <h1 className="basis-1/6 text-xl tracking-widest font-bold self-center">
             DORSIN
@@ -17,12 +18,12 @@ function NavBar() {
               "Services",
               "Features",
               "Pricing",
-              "Teams",
+              "Team",
               "Blog",
               "Contact",
             ].map((item, key) => (
               <li key={key} className="flex-1 mx-[10px] py-3.5 px-2">
-                {item}
+                <Link href={"#" + item}>{item}</Link>
               </li>
             ))}
           </ul>

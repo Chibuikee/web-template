@@ -42,7 +42,7 @@ function Pricing() {
   ];
   return (
     <>
-      <section className="py-[80px]">
+      <section id="Pricing" className="py-[80px]">
         <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             OUR PRICING
