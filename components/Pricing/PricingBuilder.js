@@ -6,7 +6,7 @@ const PricingBox = ({ pricings }) => {
       <div className="md:flex gap-6">
         {(pricings || []).map((pricing, key) => (
           <div
-            className="text-center py-[50px] px-[40px] bg-white basis-1/3  border border-solid border-[#ecf0f5] rounded-lg shadow-lg"
+            className="relative hover:top-[-8px] text-center py-[50px] px-[40px] bg-white basis-1/3  border border-solid border-[#ecf0f5] rounded-lg shadow-lg"
             key={key}
           >
             <h4 className="text-uppercase">{pricing.title}</h4>

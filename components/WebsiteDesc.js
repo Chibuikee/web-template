@@ -6,12 +6,12 @@ function WebsiteDesc() {
     <>
       <section className="relative py-[6.27rem] bg-[url('/assets/images/img-1.jpg')] bg-cover bg-no-repeat bg-center">
         <div className="absolute h-full w-full right-0 left-0 top-0 bottom-0 opacity-90 bg-gradient-to-r from-[rgb(81_45_168)] to-[rgb(113_30_114)] "></div>
-        <div className="">
+        <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <div className="relative text-center">
             <h1 className="text-3xl text-[#ffffff] ">
               Build your dream website today
             </h1>
-            <p className="pt-3 max-w-[37.5rem] mx-auto text-base text-[rgba(255,255,255,0.7)] ">
+            <p className="pt-3 w-[90%] max-w-[37.5rem] mx-auto text-base text-[rgba(255,255,255,0.7)] ">
               But nothing the copy said could convince her and so it didn`t take
               long until a few insidious Copy Writers ambushed her.
             </p>

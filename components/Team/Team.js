@@ -2,21 +2,25 @@ import React from "react";
 import TeamBuilder from "./TeamBuilder";
 const teams = [
   {
+    link: "https://www.linkedin.com/in/chibuike-ewenike-960599172/",
     image: "/assets/images/team/img-1.jpeg",
     title: "Chibuike Ewenike",
     desc: "CEO",
   },
   {
+    link: "#",
     image: "/assets/images/team/img-2.jpg",
     title: "Elaine Stclair",
     desc: "DESIGNER",
   },
   {
+    link: "#",
     image: "/assets/images/team/img-3.jpg",
     title: "Wanda Arthur",
     desc: "DEVELOPER",
   },
   {
+    link: "#",
     image: "/assets/images/team/img-4.jpg",
     title: "Joshua Stemple",
     desc: "MANAGER",

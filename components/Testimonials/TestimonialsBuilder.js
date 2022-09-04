@@ -5,7 +5,7 @@ const TestimonialsBox = ({ clients }) => {
   return (
     <>
       {(clients || []).map((client, key) => (
-        <div key={key} className="mt-[80px]">
+        <div key={key} className="relative hover:top-[-8px] mt-[80px]">
           <div
             className="border border-solid border-[#ecf0f5] rounded-lg shadow-lg"
             key={key}

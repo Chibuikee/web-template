@@ -14,7 +14,7 @@ function GetStart() {
           </h1>
           <div className="w-12 h-[0.125rem] mt-6 mx-auto bg-[#fb3e3e]"></div>
           <div className="section-title-border mt-4 bg-white"></div>
-          <p className="pt-6 text-[#FFFFFF] max-w-[37.5rem] mx-auto text-base mb-4 text-center">
+          <p className="pt-6 text-[#FFFFFF] w-[90%] max-w-[37.5rem] mx-auto text-base mb-4 text-center">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
           </p>

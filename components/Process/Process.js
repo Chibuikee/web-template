@@ -32,7 +32,7 @@ function Process(props) {
   return (
     <>
       <section id="Process" className="py-[80px] bg-[#f8fbff]">
-        <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+        <div className="mx-auto w-[90%] sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             WORK PROCESS
           </h1>

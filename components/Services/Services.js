@@ -45,7 +45,7 @@ function Services() {
   return (
     <>
       <section id="Services" className="py-[80px]">
-        <div className="mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+        <div className="w-[90%] mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             OUR SERVICES
           </h1>
@@ -55,11 +55,13 @@ function Services() {
             category leading brand experiences that have meaning and add a value
             for our clients.
           </p>
-          <div className="lg:flex">
-            <ServiceBuilder services={services1} />
-          </div>
-          <div className="lg:flex mt-6">
-            <ServiceBuilder services={services2} />
+          <div className="mt-9">
+            <div className="lg:flex">
+              <ServiceBuilder services={services1} />
+            </div>
+            <div className="lg:flex mt-6">
+              <ServiceBuilder services={services2} />
+            </div>
           </div>
         </div>
       </section>

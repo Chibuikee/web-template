@@ -3,7 +3,7 @@ function Features() {
   return (
     <>
       <section id="Features" className="bg-[#f8fbff] py-[80px]">
-        <div className="lg:flex mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+        <div className="w-[90%] lg:flex mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <div className="text-[#95a0ab] lg:w-[41.66666667%]">
             <h1 className="mb-[25px] leading-9 text-2xl text-black">
               A digital web design studio creating modern & engaging online
