@@ -44,7 +44,7 @@ function Features() {
               Learn More
             </button>
           </div>
-          <div className="px-3 ">
+          <div className="mt-10 px-3 ">
             <div className="ml-9 ">
               <Image
                 src="/assets/images/online-world.svg"

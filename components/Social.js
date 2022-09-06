@@ -37,7 +37,7 @@ function Social() {
   ];
   return (
     <>
-      <section className="contact-social bg-[#f8fbff] py-5">
+      <section className="bg-[#f8fbff] py-5">
         <div className="md:flex  mx-auto sm:max-w-[600px] px-5 md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <ul className=" basis-2/4 mt-4 flex space-x-4 ">
             {links.map((item, key) => (
@@ -45,7 +45,7 @@ function Social() {
                 key={key}
                 className="gap-4 flex items-center justify-center border-solid border-2 w-12 h-12 rounded-full border-red-500"
               >
-                <Link href="# ">
+                <Link href="https://www.linkedin.com/in/chibuike-ewenike-960599172/">
                   <a className="">
                     <svg
                       className="w-6 h-6 text-[#afb5bd] fill-current "
@@ -61,11 +61,19 @@ function Social() {
           </ul>
           <div className="mt-4 basis-1/4 gap-1 items-center flex">
             <IoCallOutline size={30} />
-            <p className="contact-title">+234 9032 125 576</p>
+            <p className="">
+              <Link href="tel:+234 9032 125 576">
+                <a>+234 9032 125 576</a>
+              </Link>
+            </p>
           </div>
           <div className="mt-4 md:ml-3 flex basis-1/4 gap-1 items-center ">
             <HiOutlineMailOpen size={30} />
-            <p className="text-right">Sopewenike@gmail.com</p>
+            <p className="">
+              <Link href="mailto:Sopewenike@gmail.com">
+                <a>Sopewenike@gmail.com</a>
+              </Link>
+            </p>
           </div>
         </div>
       </section>

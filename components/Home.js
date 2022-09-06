@@ -41,7 +41,7 @@ function Hero() {
             <h1 className="text-[2rem] lg:text-[2.875rem] leading-[4rem] font-medium mb-2">
               We help startups launch their products
             </h1>
-            <p className="pt-4 max-w-[600px] mx-auto text-[15px] leading-6">
+            <p className="pt-4 max-w-[90%] md:max-w-[600px] mx-auto text-xs md:text-[15px] leading-6">
               Etiam sed.Interdum consequat proin vestibulum class at.
             </p>
             <p className="play-shadow mt-4">
