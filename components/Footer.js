@@ -14,7 +14,7 @@ function Footer() {
   }
   const links = [
     {
-      title: "DORSIN",
+      title: "PRUBICON",
       child: [
         { link: "#", title: "Home" },
         { link: "#", title: "About us" },
@@ -53,7 +53,9 @@ function Footer() {
               <ul className="mt-6">
                 {item.child.map((item) => (
                   <li className="pt-2 text-[#98A0AA] text-sm" key={key}>
-                    {item.title}
+                    <Link href={item.link + item.title}>
+                      <a> {item.title}</a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -92,7 +94,7 @@ function Footer() {
           <div className="flex px-7 justify-between items-center font-sans py-4 text-white mx-auto max-w-[960px] lg:max-w-[1280px] ">
             <div className="">
               <p className="copy-rights text-muted">
-                2022 © Chibs - Themesbrand
+                2022 © Prubicon - Themesbrand
               </p>
             </div>
             <div className="float-end pull-none">

@@ -9,7 +9,7 @@ function NavBar() {
           <div className="flex justify-between max-w-5xl gap-10">
             <h1 className="basis-1/6  text-xl tracking-widest font-bold self-center">
               <Link href="https://www.linkedin.com/in/chibuike-ewenike-960599172/">
-                CHIBUIKE
+                PRUBICON
               </Link>
             </h1>
 
@@ -37,7 +37,7 @@ function NavBar() {
           </div>
           <div className=" hidden lg:flex">
             <button className="px-5 self-center py-2 inline font-medium tracking-wide text-sm rounded-full bg-[#fb3e3e]">
-              <span>Try it Free</span>
+              <span>Contact Us</span>
             </button>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 function TeamBox({ teams }) {
   return (
     <>
-      <div className="md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 ">
+      <div className="md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto">
         {(teams || []).map((team, key) => (
           <div className="relative hover:top-[-8px]" key={key}>
             <div className="mx-auto relative md:w-[21rem] md:h-[21rem] lg:h-[13.5rem] lg:w-[13.5rem] rounded">

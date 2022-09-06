@@ -15,8 +15,8 @@ const clients = [
     desc: "Our task must be to free ourselves by widening our circle of compassion to embrace all living creatures and the whole of nature and its beauty.",
   },
   {
-    image: "/assets/images/testimonials/user-3.jpg",
-    title: "THERESA D. SINCLAIR",
+    image: "/assets/images/testimonials/user-3.jpeg",
+    title: "FRANCISCA O. OLUGO",
     subTitle: "Lynchburg",
     desc: "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
   },
